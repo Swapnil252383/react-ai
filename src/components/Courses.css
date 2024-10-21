@@ -1,0 +1,60 @@
+/* src/components/Courses.css */
+.courses {
+    padding: 40px;
+    text-align: center;
+    background-color: #f4f4f4; /* Light background color */
+    min-height: 100vh; /* Ensure it takes up full viewport height */
+  }
+  
+  h1 {
+    font-size: 48px; /* Larger font size for the heading */
+    margin-bottom: 40px; /* Space below the heading */
+    color: #333; /* Dark color for the heading */
+  }
+  
+  .course-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 20px; /* Space between cards */
+  }
+  
+  .course-card {
+    background-color: white; /* White background for cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effects */
+  }
+  
+  .course-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+  }
+  
+  h2 {
+    font-size: 24px; /* Font size for course titles */
+    margin-bottom: 10px; /* Space below course titles */
+  }
+  
+  p {
+    font-size: 16px; /* Font size for course descriptions */
+    margin-bottom: 20px; /* Space below descriptions */
+    color: #666; /* Gray color for descriptions */
+  }
+  
+  .enroll-button {
+    padding: 10px 20px; /* Button padding */
+    font-size: 18px; /* Button font size */
+    color: white; /* Text color */
+    background-color: #4caf50; /* Button color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color change */
+  }
+  
+  .enroll-button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+  }
+  

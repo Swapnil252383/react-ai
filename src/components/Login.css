@@ -1,0 +1,25 @@
+/* src/components/Login.css */
+.login {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .login form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login input {
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  .login button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
